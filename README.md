@@ -95,9 +95,9 @@ podman run -d \
 
 ```
 kali-vnc-container/
-├── Containerfile          # Definición de la imagen
-├── start-kali_vnc.sh     # Script de inicio automatizado
-└── README.md             # Documentación
+├── Containerfile           # Definición de la imagen
+├── start-kali_vnc.sh       # Script de inicio automatizado
+└── README.md               # Documentación
 ```
 
 ## ⚙️ Configuración Avanzada
@@ -114,7 +114,7 @@ kali-vnc-container/
 ```bash
 # Modificar en start-kali_vnc.sh:
 --memory=8g           # Aumentar RAM a 8GB
---cpus=4             # Usar 4 núcleos de CPU
+--cpus=4              # Usar 4 núcleos de CPU
 ```
 
 ### Mapear Carpetas Locales
